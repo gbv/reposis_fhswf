@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+
+  <section xml:lang="de" title="Willkommen auf den Seiten der FH Südwestfahlen">
+    <div class="row">
+      <div class="col" lang="de">
+        <h2>
+          Publikationsserver der FH Südwestfahlen
+        </h2>
+        <p>
+          Diese Seite befindet sich aktuell noch im Aufbau.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <meta>
+    <log lastEditor="administrator" date="2020-03-16" time="10:15"/>
+  </meta>
+
+</MyCoReWebPage>

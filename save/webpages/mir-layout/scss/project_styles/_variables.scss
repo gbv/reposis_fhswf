@@ -1,0 +1,67 @@
+// **************************************************
+//  Variables
+// **************************************************
+
+// --------------------------------------------------
+//  modifies bootstrap/bootswatch settings
+// --------------------------------------------------
+//  - you can't use bootstrap variables here,
+//    they are unknown here and has to be set first
+//
+//  TODO: set bootstrap variables in mir variables,
+//        if they are needed there (with !default)
+//        so you can overwrite that rules here if you like,
+//        at the momen you have to set some bs variables,
+//        even if you don't need them
+
+//  Brand colors
+// -------------------------
+// style guide
+$primary:       #3374B1;  // primary
+$secondary:     #9bb9dc;  // primary accent
+
+$success:      #6EBA6B;
+$info:         #4B8FBC;
+$warning:      #CB1D1D;
+$danger:       #CB1D1D;
+$gray-light:   #CCCCCC;
+
+// keep deprecated variables alive
+$brand-primary: $primary;
+$brand-success: $success;
+$brand-info:    $info;
+$brand-warning: $warning;
+$brand-danger:  $danger;
+
+
+//  Links
+// -------------------------
+$link-color:         $primary;
+$link-hover-color:   darken($primary, 20%);
+
+//  Panel
+// -------------------------
+$panel-default-border: $gray-light;
+
+//  Misc
+// -------------------------
+$font-family-sans-serif: 'Trebuchet MS', 'Segoe UI', Candara, Verdana, sans-serif;
+$body-color: #666;
+$line-height-base: 1.5;
+$headings-font-weight: 700;
+
+$font-size-base: 1rem;
+
+$h1-font-size: 2.5rem;
+$h2-font-size: 1.5rem;
+$h3-font-size: 1.125rem;
+
+$font-weight-bold: 700 !default;
+$font-weight-bolder: $font-weight-bold;
+
+$border-radius: 0px;
+
+
+// --------------------------------------------------
+//  Projects settings
+// --------------------------------------------------
