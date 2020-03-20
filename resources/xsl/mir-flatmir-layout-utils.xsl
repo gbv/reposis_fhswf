@@ -89,7 +89,7 @@
       <div class="row">
         <div class="col-xs-6 col-sm-9">
           <ul class="internal_links nav navbar-nav">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
+            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
           </ul>
         </div>
       </div>
