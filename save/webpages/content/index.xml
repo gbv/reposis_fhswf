@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
 
-  <section xml:lang="de" title="Willkommen auf den Seiten der FH Südwestfahlen">
+  <section xml:lang="de" title="Willkommen auf den Seiten der FH Südwestfalen">
     <div class="row">
       <div class="col" lang="de">
         <h2>
-          Publikationsserver der FH Südwestfahlen
+          Publikationsserver der FH Südwestfalen
         </h2>
         <p>
-          Diese Seite befindet sich aktuell noch im Aufbau.
+          Diese Seite befindet sich aktuell noch im Aufbau und wird ersteinmal als internes Arbeitsinstrument genutzt.
+          Die Mitarbeiterinnen und Mitarbeiter der Bibliothek nutzen den Publikationsserver für die Erfassung. Eine genauere
+          Spezifikation der Inhalte und Publikationsrichtlinien folgen.
         </p>
       </div>
     </div>

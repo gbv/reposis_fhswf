@@ -2,7 +2,55 @@
 <MyCoReWebPage><section xml:lang="de" title="Impressum"><div>
 <h1>Impressum</h1>
 
-... folgt
+    <p>Fachhochschule Südwestfalen<br />
+        Baarstraße 6<br />
+        58636 Iserlohn<br />
+    </p>
+    <p>
+        Telefon: +492371/566-0<br />
+        Telefax: +492371/566-274<br />
+        E-Mail: <span class="madress">info [at] fh-swf.de</span><br />
+        Internet: http://www.fh-swf.de/
+    </p>
+    <p>
+        Die Fachhochschule Südwestfalen ist eine Körperschaft des Öffentlichen Rechts. Sie wird durch den amtierenden Rektor vertreten.
+    </p>
+    
+    <h2>Zuständige Aufsichtsbehörde:</h2>
+    <p>
+        Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen<br />
+        Völklinger Straße 49<br />
+        40221 Düsseldorf
+    </p>
+    
+    <h2>Umsatzsteuer-Identifikationsnummer</h2>
+    <p>gemäß § 27 a Umsatzsteuergesetz: DE 125.580.587</p>
+    
+    <h2>Inhaltlich Verantwortlicher</h2>
+    <p>gemäß § 6 Absatz 2 MDStV: <a href="">Prof. Dr. Claus Schuster</a>.</p>
+    
+    <h2>Haftungshinweis:</h2>
+    <p>
+        Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+    </p>
+    
+    <h2>Design und technische Realisierung:</h2>
+    <p>
+        Verbundzentrale des GBV<br />
+        Platz der Göttinger Sieben 1<br />
+        37073 Göttingen<br />
+        E-Mail: <span class="madress">dms-list [at] lists.gbv.de</span><br />
+        Internet: <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service</a>
+    </p>
+
+
+
+
+
+
+
+
+
 </div>
 </section>
     <meta><log lastEditor="administrator" date="2020-03-20" time="15:01" /></meta></MyCoReWebPage>
