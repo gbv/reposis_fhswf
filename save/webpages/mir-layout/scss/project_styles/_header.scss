@@ -8,6 +8,13 @@
 
 // logo and menu container
 
+html body header #header_box #fhswf_logo_box {
+  position: absolute;
+  z-index: 1000;
+  top: -1rem;
+  left: 860px;;
+}
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

@@ -19,6 +19,12 @@
         </nav>
       </div>
       <div id="project_logo_box">
+        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
+          class="">
+          <span id="logo_mir">Publikationsserver</span>
+        </a>
+      </div>
+      <div id="fhswf_logo_box">
         <a href="https://www4.fh-swf.de/"
            class="">
           <img src="{$WebApplicationBaseURL}images/logos/fh-logo-sheet.png" alt="Fachhochschule Südwestfalen" title="zur Startseite" />
