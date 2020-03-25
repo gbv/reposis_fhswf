@@ -33,7 +33,7 @@
 # Layout
   MIR.CustomLayout.JS=fhswf.js
 
-# Set PIWIK-ID in mycore.properties for productive to xx, default is 0 (no tracking)
+# Set PIWIK-ID in mycore.properties for productive to 40, default is 0 (no tracking)
 # piwikID=xx
 
 # this is a productive environment
