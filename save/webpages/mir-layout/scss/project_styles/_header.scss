@@ -8,17 +8,38 @@
 
 // logo and menu container
 
+#header_box {
+  position: relative;
+}
+
 html body header #header_box #fhswf_logo_box {
   position: absolute;
   z-index: 1000;
-  top: -1rem;
-  left: 860px;;
+  top: -20px;
+  left: 40%;
+  img {
+    max-width: 90%;
+  }
 }
+
+html body header #header_box #project_logo_box a #logo_mir {
+  color: #666;
+  font-size: 1.5rem;
+  font-weight: 700;
+}	
 
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
+
+  #header_box {
+    padding-top: 90px;
+  }
+
+  html body header #header_box #fhswf_logo_box {
+    left: 200px;
+  }
 }
 
 // Medium devices (tablets) and below: <= 992px
@@ -29,6 +50,13 @@ html body header #header_box #fhswf_logo_box {
 // Small devices (landscape phones) and below: <= 768px
 @include media-breakpoint-down(sm) {
   // add/overwrite styles for responsive level sm and lower
+  #header_box {
+    padding-top: 150px;
+  }
+
+  html body header #header_box #fhswf_logo_box {
+    left: 10%;
+  }
 }
 
 // Extra small devices (portrait phones): <= 576px
