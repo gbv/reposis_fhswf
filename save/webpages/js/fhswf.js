@@ -9,4 +9,10 @@ $(document).ready(function() {
       $(this).remove();
   });
 
+  // add login link if access is denied
+  $("div.alert-warning:contains('nur angemeldete Nutzer')").replaceWith(function () { 
+      return $('<div role="alert" class="alert alert-warning"><strong>Zugriffsberechtigung</strong>&nbsp;<a href="https://publikationen.fhb.fh-swf.de/servlets/MCRLoginServlet">nur angemeldete Nutzer</a></div>');
+  });
+
+  
 });
