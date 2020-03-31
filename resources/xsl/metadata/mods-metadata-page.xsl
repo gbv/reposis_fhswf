@@ -151,7 +151,7 @@
                   <div class="col-md-3 text-right"><img src="{$WebApplicationBaseURL}images/epusta/epustalogo_small.png" style="height: 40px;"/></div>
                 </div>
               </div>
-              <div class="card-body" id="mir_oas">
+              <div class="card-body">
                 <xsl:apply-templates select="div[@id='mir-oastatistics']" mode="copyContent" />
               </div>
             </div>
