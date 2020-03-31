@@ -77,6 +77,14 @@
 #  MCR.mir-module.EditorMail=xxx
 #  MCR.mir-module.MailSender=xxx
 
+##############################################################################
+# MIR OAS                                                                    #
+##############################################################################
+# show OAS Statistics in metadata view ('show', 'hide')
+MIR.OAS=show
+# URL of the graphprovider
+MIR.OAS.GraphProviderURL=https://reposis-test.gbv.de/fh-swf/graphprovider/
+MIR.OAS.Prefix=
 
 ##############################################################################
 # Error Page                                                                 #
