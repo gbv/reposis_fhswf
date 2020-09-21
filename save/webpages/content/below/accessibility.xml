@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Erklärung zur Barrierefreiheit">
+    <div class="row">
+      <div class="col-md-10" lang="de">
+        <h1>Erklärung zur Barrierefreiheit</h1>
+        <p>
+          Die Fachhochschule Südwestfalen hat den Anspruch, ihre Website und mobilen Anwendungen entsprechend der 
+          EU-Richtlinie 2016/2102 barrierefrei zugänglich zu machen. Die folgende Erklärung zur Barrierefreiheit
+          dokumentiert den Umsetzungsstand für den Webauftritt publikationen.fhb.fh-swf.de gemäß der Verordnung
+          zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz Nordrhein-Westfalen.
+        </p>
+        <h2>
+          Stand der Vereinbarkeit mit den Anforderungen
+        </h2>
+        <p>
+          Diese Website ist mit der EU-Richtlinie 2016/2102 teilweise konform.
+          Methodik der Prüfung: Selbstbewertung
+          Erstellt am: 21.09.2020
+          Zuletzt geprüft am: 21.09.2020
+        </p>
+        <h2> 
+          Nicht barrierefreie Inhalte
+        </h2>
+        <p> 
+          Die auf dem Publikationsserver veröffentlichten Dokumente sind teilweise nicht barrierefrei und können nicht automatisiert in ein
+          barrierefreies Format umgewandelt werden, da
+          <ul>
+           <li> da die Bibliothek der FH-SWF nicht das Recht auf die Änderung der Dateien besitzt, </li>
+           <li> die Ausgangsformate nicht zu Verfügungs stehen,</li>
+           <li> die Zitierfähigkeit der Dokumente nicht mehr gewährleistet ist.</li>
+          </ul>
+          Eine nachträgliche manuelle Bearbeitung der Dokumente ist unverhältnismäßig arbeitsaufwendig und wird nur in Ausnahmefällen
+          durchgeführt.
+        </p>
+        <p>
+          Der Publikationserver richtet sich an Wissenschafler aus den jeweiligen Fachbereichen. Auf Grund der komplexen Inhalte 
+          kann eine einfache Sprachgestaltung nicht umgesetzt werden und es werden gängige Fachbegriffe und Abkürzungen genutzt.
+        </p>
+        <h2>
+          Feedback und Kontaktangaben
+        </h2>
+        <p>
+          Sie können uns Mängel bei der Einhaltung der Anforderungen an die Barrierefreiheit mitteilen und Informationen zu Inhalten
+          anfordern, die von der Richtlinie ausgenommen sind.
+        </p>
+        <h4>
+          Kontakt:
+        </h4>
+        <p>
+          Beauftragte für Studierende mit Behinderung oder chronischer Erkrankung<br/>
+          Tel. 02371 566 5742<br/>
+          Universitätsbibliothek Hagen<br/>
+          krause.anna@fh-swf.de<br/>
+        </p>
+        <h4>
+          Feedback:
+        </h4>
+        <p>
+          Wenn Sie Kontakt zur Fachhochschule Südwestfalen aufnehmen möchten, nutzen Sie bitte unser Feedback-Formular.
+          Bitte geben Sie bei der Nachricht das Stichwort Barrierefreiheit an und teilen uns unter Nennung der URL mit, 
+          auf welchen Inhalt Sie sich beziehen.
+        </p>
+        <h3>
+          Durchsetzungsverfahren
+        </h3>
+        <p>
+          Sollten Sie auf Mitteilungen oder Anfragen zur Barrierefreiheit innerhalb von sechs Wochen keine
+          zufriedenstellende Antwort erhalten haben, können Sie die Ombudsstelle für barrierefreie Informationstechnik
+          einschalten. Sie ist der oder dem Beauftragten für die Belange der Menschen mit Behinderung nach § 11 des
+          Behindertengleichstellungsgesetzes Nordrhein-Westfalen zugeordnet. Wenn Sie ein Ombudsverfahren wünschen,
+          füllen Sie bitte den entsprechenden Antrag aus und senden ihn per E-Mail an die Ombudsstelle.
+        </p>
+        <p>
+          Ombudsstelle für barrierefreie Informationstechnik des Landes Nordrhein-Westfalen bei der Landesbeauftragten 
+          für Menschen mit Behinderungen<br/>
+          Fürstenwall 25
+          40219 Düsseldorf
+        </p>
+      </div>
+    </div>
+  </section>
+  <meta>
+    <log lastEditor="administrator" date="2020-09-21" time="12:30" />
+  </meta>
+</MyCoReWebPage>
