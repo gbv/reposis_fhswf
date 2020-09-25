@@ -20,12 +20,20 @@
           Erstellt am: 21.09.2020<br/>
           Zuletzt geprüft am: 21.09.2020<br/>
         </p>
+        <p>
+          Die identifizierten technischen Defizite und Mängel befinden sich aktuell
+          in einem kontinuierlichen Verbesserungsprozess, der sukzessive abgearbeitet wird.
+        </p>
         <h2> 
           Nicht barrierefreie Inhalte
         </h2>
+        <p>
+          Bei neu erscheinenden Dokumenten, die in den Verantwortungsbereich der Bibliothek der Fachhochschule Südwestfalen fallen,
+          streben wir an, eine barrierefreie Version zur Verfügung zu stellen. Dokumente, die von Dritten bereitgestellt werden,
+          liegen eventuell nicht barrierefrei vor.
+        </p>
         <p> 
-          Die auf dem Publikationsserver veröffentlichten Dokumente sind teilweise nicht barrierefrei und können nicht automatisiert in ein
-          barrierefreies Format umgewandelt werden, da
+          Diese Dokumente können nicht automatisiert in ein barrierefreies Format umgewandelt werden, da
           <ul>
            <li> die Bibliothek der FH-SWF nicht das Recht auf die Änderung der Dateien besitzt, </li>
            <li> die Ausgangsformate nicht zu Verfügungs stehen,</li>
@@ -35,8 +43,12 @@
           durchgeführt.
         </p>
         <p>
-          Der Publikationserver richtet sich an Wissenschafler aus den jeweiligen Fachbereichen. Auf Grund der komplexen Inhalte 
+          Der Publikationserver richtet sich an Angehörige der Fachhochschule Südwestfalen. Auf Grund der komplexen Inhalte 
           kann eine einfache Sprachgestaltung nicht umgesetzt werden und es werden gängige Fachbegriffe und Abkürzungen genutzt.
+        </p>
+        <p>
+          Barrierefreie Alternativen: Im Falle von nicht barrierefreien Dokumenten bzw. Inhalten wenden Sie sich bitte an
+          <span class="madress">bibliotheksdirektion [at] listen.fh-swf.de</span>.
         </p>
         <h2>
           Feedback und Kontaktangaben
@@ -51,14 +63,14 @@
         <p>
           Beauftragte für Studierende mit Behinderung oder chronischer Erkrankung<br/>
           Tel. 02371 566 5742<br/>
-          krause.anna@fh-swf.de<br/>
+          <span class="madress">krause.anna [at] fh-swf.de</span><br/>
         </p>
         <h3>
           Feedback:
         </h3>
         <p>
-          Wenn Sie Kontakt zur Fachhochschule Südwestfalen aufnehmen möchten, nutzen Sie bitte unser 
-          <a href="https://www4.fh-swf.de/de/home/kontakt_9/kontaktformular.php">Feedback-Formular</a>.
+          Wenn Sie Feedback zum Publikationsserver der Fachhochschule Südwestfalen geben möchten, senden Sie dieses bitte  
+          an <span class="madress">bibliotheksdirektion [at] listen.fh-swf.de</span>.
           Bitte geben Sie bei der Nachricht das Stichwort Barrierefreiheit an und teilen uns unter Nennung der URL mit, 
           auf welchen Inhalt Sie sich beziehen.
         </p>
@@ -70,13 +82,17 @@
           zufriedenstellende Antwort erhalten haben, können Sie die Ombudsstelle für barrierefreie Informationstechnik
           einschalten. Sie ist der oder dem Beauftragten für die Belange der Menschen mit Behinderung nach § 11 des
           Behindertengleichstellungsgesetzes Nordrhein-Westfalen zugeordnet. Wenn Sie ein Ombudsverfahren wünschen,
-          füllen Sie bitte den entsprechenden Antrag aus und senden ihn per E-Mail an die Ombudsstelle.
+          füllen Sie bitte den entsprechenden 
+          <a href="https://www.mags.nrw/sites/default/files/asset/document/antrag_ombudsverfahren_0.pdf">Antrag</a>
+          aus und senden ihn per E-Mail an die Ombudsstelle.
         </p>
         <p>
           Ombudsstelle für barrierefreie Informationstechnik des Landes Nordrhein-Westfalen bei der Landesbeauftragten 
           für Menschen mit Behinderungen<br/>
           Fürstenwall 25<br/>
-          40219 Düsseldorf
+          40219 Düsseldorf<br/>
+          <a href="https://www.mags.nrw/ombudsstelle-barrierefreie-informationstechnik">www.mags.nrw/ombudsstelle-barrierefreie-informationstechnik</a><br/>
+          <span class="madress">ombudsstelle-barrierefreie-it [at] mags.nrw.de</span>
         </p>
       </div>
     </div>
