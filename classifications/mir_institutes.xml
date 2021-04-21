@@ -7,44 +7,56 @@
     <category ID="hagen">
       <label xml:lang="de" text="Standort Hagen" />
       <label xml:lang="x-group" text="true" />
+      <category ID="BIB">
+        <label xml:lang="de" text="Bibliothek" />
+      </category>
+      <category ID="IfV">
+        <label xml:lang="de" text="Institut für Verbundstudien NRW" />
+      </category>
       <category ID="EI">
-        <label xml:lang="de" text="Elektrotechnik und Informationstechnik" />
+        <label xml:lang="de" text="Fachbereich Elektrotechnik und Informationstechnik" />
       </category>
       <category ID="TWB">
-        <label xml:lang="de" text="Technische Betriebswirtschaft" />
+        <label xml:lang="de" text="Fachbereich Technische Betriebswirtschaft" />
       </category>
     </category>
     <category ID="iserlohn">
       <label xml:lang="de" text="Standort Iserlohn" />
       <label xml:lang="x-group" text="true" />
+      <category ID="HV">
+        <label xml:lang="de" text="Hochschulverwaltung" />
+      </category>
       <category ID="IN">
-        <label xml:lang="de" text="Informatik und Naturwissenschaften" />
+        <label xml:lang="de" text="Fachbereich Informatik und Naturwissenschaften" />
       </category>
       <category ID="M">
-        <label xml:lang="de" text="Maschinenbau " />
+        <label xml:lang="de" text="Fachbereich Maschinenbau " />
       </category>
     </category>
     <category ID="meschede">
       <label xml:lang="de" text="Standort Meschede" />
       <label xml:lang="x-group" text="true" />
       <category ID="IW">
-        <label xml:lang="de" text="Ingenieur- und Wirtschaftswissenschaften " />
+        <label xml:lang="de" text="Fachbereich Ingenieur- und Wirtschaftswissenschaften " />
       </category>
     </category>
     <category ID="soest">
       <label xml:lang="de" text="Standort Soest" />
       <label xml:lang="x-group" text="true" />
       <category ID="AW">
-        <label xml:lang="de" text="Agrarwirtschaft" />
+        <label xml:lang="de" text="Fachbereich Agrarwirtschaft" />
       </category>
       <category ID="EET">
-        <label xml:lang="de" text="Elektrische Energietechnik" />
+        <label xml:lang="de" text="Fachbereich Elektrische Energietechnik" />
       </category>
       <category ID="MA">
-        <label xml:lang="de" text="Maschinenbau-Automatisierungstechnik" />
+        <label xml:lang="de" text="Fachbereich Maschinenbau-Automatisierungstechnik" />
       </category>
       <category ID="WZF">
         <label xml:lang="de" text="Wissenschaftliches Zentrum Frühpädagogik" />
+      </category>
+      <category ID="BG">
+        <label xml:lang="de" text="Fachbereich Bildungs- und Gesellschaftswissenschaften" />
       </category>
     </category>
   </categories>
