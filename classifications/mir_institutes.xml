@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
+  <label xml:lang="x-uri" text="https://publikationen.fhb.fh-swf.de/api/v2/classifications/mir_institutes" />
+  <label xml:lang="de" text="Fachbereiche der FH SWF" description="Liste aller Fachbereiche nach Standorten sortiert" />
+  <label xml:lang="en" text="Institutions of FH SWF" description="A list of institutions" />
+  <categories>
+    <category ID="hagen">
+      <label xml:lang="de" text="Standort Hagen" />
+      <label xml:lang="x-group" text="true" />
+      <category ID="EI">
+        <label xml:lang="de" text="Elektrotechnik und Informationstechnik" />
+      </category>
+      <category ID="TWB">
+        <label xml:lang="de" text="Technische Betriebswirtschaft" />
+      </category>
+    </category>
+    <category ID="iserlohn">
+      <label xml:lang="de" text="Standort Iserlohn" />
+      <label xml:lang="x-group" text="true" />
+      <category ID="IN">
+        <label xml:lang="de" text="Informatik und Naturwissenschaften" />
+      </category>
+      <category ID="M">
+        <label xml:lang="de" text="Maschinenbau " />
+      </category>
+    </category>
+    <category ID="meschede">
+      <label xml:lang="de" text="Standort Meschede" />
+      <label xml:lang="x-group" text="true" />
+      <category ID="IW">
+        <label xml:lang="de" text="Ingenieur- und Wirtschaftswissenschaften " />
+      </category>
+    </category>
+    <category ID="soest">
+      <label xml:lang="de" text="Standort Soest" />
+      <label xml:lang="x-group" text="true" />
+      <category ID="AW">
+        <label xml:lang="de" text="Agrarwirtschaft" />
+      </category>
+      <category ID="EET">
+        <label xml:lang="de" text="Elektrische Energietechnik" />
+      </category>
+      <category ID="MA">
+        <label xml:lang="de" text="Maschinenbau-Automatisierungstechnik" />
+      </category>
+      <category ID="WZF">
+        <label xml:lang="de" text="Wissenschaftliches Zentrum Frühpädagogik" />
+      </category>
+    </category>
+  </categories>
+</mycoreclass>
