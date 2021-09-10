@@ -23,7 +23,7 @@
       <div id="project_logo_box">
         <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
           class="">
-          <span id="logo_mir">Publikationsserver</span>
+          <span id="logo_mir">PIA - <strong>P</strong>ublikation, <strong>I</strong>nformation und <strong>A</strong>rchiv</span>
         </a>
       </div>
       <div id="fhswf_logo_box">
