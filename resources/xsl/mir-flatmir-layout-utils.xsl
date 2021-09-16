@@ -23,7 +23,7 @@
       <div id="project_logo_box">
         <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
           class="">
-          <span id="logo_mir">PIA - <strong>P</strong>ublikation, <strong>I</strong>nformation und <strong>A</strong>rchiv</span>
+          <span id="logo_mir"><strong>PIA</strong> - <strong>P</strong>ublikation, <strong>I</strong>nformation und <strong>A</strong>rchiv</span>
         </a>
       </div>
       <div id="fhswf_logo_box">
@@ -64,7 +64,7 @@
               </xsl:for-each>
               <xsl:call-template name="mir.basketMenu" />
             </ul>
-     
+
 
             <form action="{$WebApplicationBaseURL}servlets/solr/find" class="searchfield_box form-inline my-2" role="search">
               <div class="form-group">
@@ -117,7 +117,7 @@
         <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
       </a>
     </div>
-    
+
     <!-- Matomo -->
     <xsl:if test="$piwikID &gt; 0">
       <script type="text/javascript">
