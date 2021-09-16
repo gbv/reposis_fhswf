@@ -20,15 +20,15 @@ html body header #header_box #fhswf_logo_box {
   img {
     max-width: 90%;
   }
-  strong {
-    color: $primary;
-  }
 }
 
 html body header #header_box #project_logo_box a #logo_mir {
   color: #666;
   font-size: 1.5rem;
   font-weight: 700;
+  strong {
+    color: $primary;
+  }
 }
 
 
