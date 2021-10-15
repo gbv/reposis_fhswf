@@ -6,13 +6,33 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
-.flatmir-footer .navbar-nav {
-  flex-direction: row;
+.flatmir-footer {
+  color: $fh-black;
+  background-color: $fh-gray-light;
+  border-top: none;
+  .container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
-.flatmir-footer .navbar-nav .nav-link {
-  padding-right: 60px;
+.internal_links {
+  flex-direction: row;
+  justify-content: end;
+  .nav-link {
+    margin-left: 60px;
+    a {
+      color: $fh-black;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#powered_by {
+  background-color: $fh-blue;
+  border-top: none;
 }
 
 // Large devices (desktops) and below: <= 1200px

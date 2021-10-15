@@ -6,7 +6,28 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+.searchfield_box {
+  .form-control {
+    border-color: $fh-black;
+    border-radius: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right: none;
+    height: auto;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .btn {
+    border-color: $fh-black;
+    border-radius: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left: none;
+    color: $fh-black;
+    background-color: white;
+  }
+}
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

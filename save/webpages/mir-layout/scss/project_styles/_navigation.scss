@@ -6,27 +6,53 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-.navbar-header {
-  align-self: flex-start;
-}
-.navbar-toggler {
-  margin-top: 0.4rem;
+.mir-prop-nav .navbar-nav > li > a {
+    color: $fh-black;
+    margin-left: 1rem;
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.mir-main-nav nav .navbar-nav .dropdown-menu::before {     
-  border-color: transparent transparent #5f9ad1 transparent; 
-}
-
-.mir-main-nav .navbar {
+.mir-main-nav {
   padding: 0;
+  .nav-item,
+  #basket-list-item {
+    margin-right: 1.5rem;
+    &:hover::after {
+      content: '';
+      position: absolute;
+      left: 0.5rem;
+      bottom: -8px;
+      width: 100%;
+      height: 6px;
+      border-radius: 0.5rem;
+      color:transparent;
+      background-color: $fh-red;
+      transition: all .2s ease-in-out;
+    }
+  }
 }
 
-.mir-main-nav .navbar-nav > li > a:hover {
-  background-color: #87b3dc;
+.navbar-light.mir-main-nav .navbar-nav {
+  padding-top: 5px;
+  .nav-link {
+    color: $fh-black;
+    font-weight: 700;
+    font-size: 1.125rem;
+    padding: 0;
+    &:hover {
+      color: $fh-blue;
+    }
+  }
+}
+
+.dropdown-menu {
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.16);
+  .dropdown-item {
+    font-weight: 500;
+  }
+}
+
+.mir-main-nav .dropdown-menu {
+  margin: 1.2rem 0 0;
 }
 
 // Large devices (desktops) and below: <= 1200px

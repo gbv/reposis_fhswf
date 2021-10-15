@@ -6,23 +6,32 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-// logo and menu container
-
-#header_box {
-  position: relative;
+body {
+  // height for fixed header
+  padding-top: 10rem;
 }
 
-html body header #header_box #fhswf_logo_box {
-  position: absolute;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
-  top: -20px;
-  left: 40%;
+  background-color: white;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.16);
+}
+
+#fhswf_logo_box {
   img {
-    max-width: 90%;
+    width: 220px;
+    margin-bottom: 30px;
   }
 }
-
-html body header #header_box #project_logo_box a #logo_mir {
+#project_logo_box {
+  float: none;
+  margin-bottom: 4px;
+}
+#logo_mir {
   color: #666;
   font-size: 1.5rem;
   font-weight: 700;
@@ -31,35 +40,26 @@ html body header #header_box #project_logo_box a #logo_mir {
   }
 }
 
-
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower
-
-  #header_box {
-    padding-top: 90px;
-  }
-
-  html body header #header_box #fhswf_logo_box {
-    left: 200px;
-  }
 }
 
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
+  body {
+    // no need for relative header
+    padding-top: 0;
+  }
+  header {
+    position: relative;
+  }
 }
 
 // Small devices (landscape phones) and below: <= 768px
 @include media-breakpoint-down(sm) {
   // add/overwrite styles for responsive level sm and lower
-  #header_box {
-    padding-top: 150px;
-  }
-
-  html body header #header_box #fhswf_logo_box {
-    left: 10%;
-  }
 }
 
 // Extra small devices (portrait phones): <= 576px

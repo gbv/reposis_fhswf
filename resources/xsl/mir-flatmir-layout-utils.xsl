@@ -11,6 +11,105 @@
 
   <xsl:template name="mir.navigation">
 
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <div id="options_nav_box" class="mir-prop-nav">
+            <nav>
+              <ul class="navbar-nav ml-auto flex-row">
+                <xsl:call-template name="mir.loginMenu" />
+                <xsl:call-template name="mir.languageMenu" />
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-3">
+
+          <div id="fhswf_logo_box">
+            <a href="https://www4.fh-swf.de/"
+               class="">
+              <img src="{$WebApplicationBaseURL}images/logos/fh-logo.png" alt="Fachhochschule Südwestfalen" title="zur Startseite" />
+            </a>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col-12">
+
+              <div id="project_logo_box">
+                <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
+                  class="">
+                  <span id="logo_mir"><strong>PIA</strong> - <strong>P</strong>ublikation, <strong>I</strong>nformation und <strong>A</strong>rchiv</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+
+              <nav class="navbar navbar-expand-lg navbar-light mir-main-nav">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target=".mir-main-nav__entries"
+                  aria-controls="mir-main-nav__entries"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mir-main-nav__entries">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <xsl:for-each select="$loaded_navigation_xml/menu">
+                      <xsl:choose>
+                        <xsl:when test="@id='main'"/>
+                        <xsl:when test="@id='brand'"/>
+                        <xsl:when test="@id='below'"/>
+                        <xsl:when test="@id='user'"/>
+                        <xsl:otherwise>
+                          <xsl:apply-templates select="."/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:for-each>
+                    <xsl:call-template name="mir.basketMenu" />
+                  </ul>
+                </div>
+              </nav>
+
+            </div>
+            <div class="col">
+
+              <form
+                action="{$WebApplicationBaseURL}servlets/solr/find"
+                class="searchfield_box form-inline justify-content-end"
+                role="search">
+                <div class="form-group">
+                  <input name="condQuery" placeholder="{i18n:translate('mir.navsearch.placeholder')}" class="form-control search-query" id="searchInput" type="text" />
+                  <xsl:choose>
+                    <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                      <input name="owner" type="hidden" value="createdby:*" />
+                    </xsl:when>
+                    <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+                      <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
+                    </xsl:when>
+                  </xsl:choose>
+                </div>
+                <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--
     <div id="header_box" class="clearfix container">
       <div id="options_nav_box" class="mir-prop-nav">
         <nav>
@@ -20,24 +119,14 @@
           </ul>
         </nav>
       </div>
-      <div id="project_logo_box">
-        <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
-          class="">
-          <span id="logo_mir"><strong>PIA</strong> - <strong>P</strong>ublikation, <strong>I</strong>nformation und <strong>A</strong>rchiv</span>
-        </a>
-      </div>
-      <div id="fhswf_logo_box">
-        <a href="https://www4.fh-swf.de/"
-           class="">
-          <img src="{$WebApplicationBaseURL}images/logos/fh-logo-sheet.png" alt="Fachhochschule Südwestfalen" title="zur Startseite" />
-        </a>
-      </div>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="mir-main-nav  bg-primary">
+
+    <div class="mir-main-nav">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+
           <button
             class="navbar-toggler"
             type="button"
@@ -49,22 +138,38 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse mir-main-nav__entries">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <xsl:for-each select="$loaded_navigation_xml/menu">
-                <xsl:choose>
-                  <xsl:when test="@id='main'"/> <!-- Ignore some menus, they are shown elsewhere in the layout -->
-                  <xsl:when test="@id='brand'"/>
-                  <xsl:when test="@id='below'"/>
-                  <xsl:when test="@id='user'"/>
-                  <xsl:otherwise>
-                    <xsl:apply-templates select="."/>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:for-each>
-              <xsl:call-template name="mir.basketMenu" />
-            </ul>
+          <div class="collapse navbar-collapse mir-main-nav__entries justify-content-between">
 
+            <div id="fhswf_logo_box">
+              <a href="https://www4.fh-swf.de/"
+                 class="">
+                <img src="{$WebApplicationBaseURL}images/logos/fh-logo.png" alt="Fachhochschule Südwestfalen" title="zur Startseite" />
+              </a>
+            </div>
+
+            <div class="d-flex flex-column">
+              <div id="project_logo_box">
+                <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
+                  class="">
+                  <span id="logo_mir"><strong>PIA</strong> - <strong>P</strong>ublikation, <strong>I</strong>nformation und <strong>A</strong>rchiv</span>
+                </a>
+              </div>
+
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <xsl:for-each select="$loaded_navigation_xml/menu">
+                  <xsl:choose>
+                    <xsl:when test="@id='main'"/>
+                    <xsl:when test="@id='brand'"/>
+                    <xsl:when test="@id='below'"/>
+                    <xsl:when test="@id='user'"/>
+                    <xsl:otherwise>
+                      <xsl:apply-templates select="."/>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </xsl:for-each>
+                <xsl:call-template name="mir.basketMenu" />
+              </ul>
+            </div>
 
             <form action="{$WebApplicationBaseURL}servlets/solr/find" class="searchfield_box form-inline my-2" role="search">
               <div class="form-group">
@@ -82,8 +187,9 @@
             </form>
           </div>
         </nav>
-      </div><!-- /container -->
+      </div>
     </div>
+  -->
   </xsl:template>
 
   <xsl:template name="mir.jumbotwo">
@@ -101,7 +207,7 @@
   <xsl:template name="mir.footer">
     <div class="container">
       <div class="row">
-        <div class="col-xs-6 col-sm-9">
+        <div class="col-12 text-right">
           <ul class="internal_links nav navbar-nav">
             <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" mode="footerMenu" />
           </ul>

@@ -2,70 +2,65 @@
 //  Variables
 // **************************************************
 
-// --------------------------------------------------
-//  modifies bootstrap/bootswatch settings
-// --------------------------------------------------
-//  - you can't use bootstrap variables here,
-//    they are unknown here and has to be set first
-//
-//  TODO: set bootstrap variables in mir variables,
-//        if they are needed there (with !default)
-//        so you can overwrite that rules here if you like,
-//        at the momen you have to set some bs variables,
-//        even if you don't need them
+// colors from homepage and style guide
 
-//  Brand colors
-// -------------------------
-// style guide
-$primary:       #3374B1;  // primary
-$secondary:     #9bb9dc;  // primary accent
+$fh-blue:       #39659F;
+$fh-blue-light: #87b3dc;
+$fh-black:      #222222;
+$fh-gray-light: #EFF3F8;
+$fh-red:        #dd4a9f;
+$gray:          #999;
+$gray-light:    #CCCCCC;
 
-$success:      #6EBA6B;
-$info:         #4B8FBC;
-$warning:      #CB1D1D;
-$danger:       #CB1D1D;
-$gray-light:   #CCCCCC;
+// keep old variables alive
+// TODO: remove if removed from MIR
+$brand-warning: $fh-red;
 
-// keep deprecated variables alive
-$brand-primary: $primary;
-$brand-success: $success;
-$brand-info:    $info;
-$brand-warning: $warning;
-$brand-danger:  $danger;
+// bs settings
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1200px,
+  xl: 1500px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1140px,
+  xl: 1440px
+);
 
+$primary: $fh-blue;
 
-//  Links
-// -------------------------
-$link-color:         $primary;
-$link-hover-color:   darken($primary, 20%);
+$link-color: $primary;
+$link-hover-color: darken($primary, 20%);
 
-$navbar-dark-hover-color:    white;
-$dropdown-link-hover-bg:     #87b3dc;
+$dropdown-padding-y: 1rem;
+$dropdown-border-radius: 25px;
+$dropdown-link-color: $fh-black;
+$dropdown-link-hover-color: $fh-blue;
+$dropdown-link-hover-bg: transparent;
+$dropdown-border-color: $gray-light;
+$dropdown-font-size: 1rem;
+$dropdown-divider-bg: $gray-light;
 
-
-//  Panel
-// -------------------------
-$panel-default-border: $gray-light;
-
-//  Misc
-// -------------------------
-$font-family-sans-serif: 'Trebuchet MS', 'Segoe UI', Candara, Verdana, sans-serif;
-$body-color: #666;
-$line-height-base: 1.5;
-$headings-font-weight: 700;
-
+$font-family-sans-serif: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
+$text-color: $fh-black;
 $font-size-base: 1rem;
-
-$h1-font-size: 2.5rem;
+$h1-font-size: 2rem;
 $h2-font-size: 1.5rem;
 $h3-font-size: 1.125rem;
 
-$font-weight-bold: 700 !default;
-$font-weight-bolder: $font-weight-bold;
-
-$border-radius: 0px;
-
-
-// --------------------------------------------------
-//  Projects settings
-// --------------------------------------------------
+$pagination-color: white;
+$pagination-bg: $primary;
+$pagination-border-color: $primary;
+$pagination-hover-color: white;
+$pagination-hover-bg: darken($pagination-bg, 10%);
+$pagination-hover-border-color: darken($pagination-bg, 10%);
+$pagination-active-color: white;
+$pagination-active-bg: darken($pagination-bg, 10%);
+$pagination-active-border-color: darken($pagination-bg, 10%);
+$pagination-disabled-color: $gray;
+$pagination-disabled-bg: $gray-light;
+$pagination-disabled-border-color: $gray-light;

@@ -5,9 +5,7 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-h1, .h1 {
-    font-size: 2rem;
-}
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
