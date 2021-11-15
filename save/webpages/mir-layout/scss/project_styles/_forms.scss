@@ -47,4 +47,27 @@
 // Extra small devices (portrait phones): <= 576px
 @include media-breakpoint-down(xs) {
   // add/overwrite styles for responsive level xs
+
+  // prevent 100% width on xs
+  .searchfield_box {
+    .input-group {
+      width: auto;
+      & > .form-control {
+        display: inline-block;
+      }
+    }
+  }
+  // remove search field from flow to make it sticky, because
+  // opening menu would move search field to the bottom
+  // to pevent a overlay (can't click menu) the order was changed by bs classes
+  .search-row {
+    position: relative;
+  }
+  .search-column {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    padding-left: 100px;
+  }
 }

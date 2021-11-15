@@ -50,8 +50,8 @@
 
             </div>
           </div>
-          <div class="row">
-            <div class="col">
+          <div class="row search-row">
+            <div class="col-auto col-sm-3 col-lg-auto order-2 order-sm-1">
 
               <nav class="navbar navbar-expand-lg navbar-light mir-main-nav">
                 <button
@@ -83,14 +83,13 @@
               </nav>
 
             </div>
-            <div class="col">
+            <div class="col col-sm-9 col-lg search-column order-1 order-sm-2">
 
               <form
                 action="{$WebApplicationBaseURL}servlets/solr/find"
                 class="searchfield_box form-inline justify-content-end"
                 role="search">
-                <div class="form-group">
-                  <input name="condQuery" placeholder="{i18n:translate('mir.navsearch.placeholder')}" class="form-control search-query" id="searchInput" type="text" />
+                <div class="input-group">
                   <xsl:choose>
                     <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
                       <input name="owner" type="hidden" value="createdby:*" />
@@ -99,8 +98,11 @@
                       <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
                     </xsl:when>
                   </xsl:choose>
+                  <input name="condQuery" placeholder="{i18n:translate('mir.navsearch.placeholder')}" class="form-control search-query" id="searchInput" type="text" />
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
+                  </div>
                 </div>
-                <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
               </form>
 
             </div>

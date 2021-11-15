@@ -55,6 +55,11 @@ header {
   header {
     position: relative;
   }
+  .navbar-toggler,
+  .searchfield_box {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 }
 
 // Small devices (landscape phones) and below: <= 768px

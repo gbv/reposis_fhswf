@@ -63,6 +63,36 @@
 // Medium devices (tablets) and below: <= 992px
 @include media-breakpoint-down(md) {
   // add/overwrite styles for responsive level md and lower
+  .mir-main-nav__entries {
+    margin-bottom: 1rem;
+    .nav-item,
+    #basket-list-item {
+      border-bottom: 1px solid $text-color;
+      &:hover::after {
+        content: none;
+      }
+      .dropdown-menu {
+        margin: 0;
+        box-shadow: none;
+        border:none;
+        .dropdown-item {
+          padding: 0.5rem 1.5rem;
+          border-bottom: 1px dotted $text-color;
+        }
+        li:last-child {
+          .dropdown-item {
+            border: none;
+          }
+        }
+      }
+    }
+    #basket-list-item {
+      border: none;
+    }
+  }
+  .navbar-light.mir-main-nav .navbar-nav .nav-link {
+    padding: 0.5rem;
+  }
 }
 
 // Small devices (landscape phones) and below: <= 768px
