@@ -6,6 +6,11 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+.mir-start_page .searchfield_box {
+  display: none;
+}
+
+#project-searchMainPage,
 .searchfield_box {
   .form-control {
     border-color: $fh-black;
