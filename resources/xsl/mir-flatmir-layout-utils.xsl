@@ -89,15 +89,15 @@
                 action="{$WebApplicationBaseURL}servlets/solr/find"
                 class="searchfield_box form-inline justify-content-end"
                 role="search">
+                <xsl:choose>
+                  <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                    <input name="owner" type="hidden" value="createdby:*" />
+                  </xsl:when>
+                  <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+                    <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
+                  </xsl:when>
+                </xsl:choose>
                 <div class="input-group">
-                  <xsl:choose>
-                    <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
-                      <input name="owner" type="hidden" value="createdby:*" />
-                    </xsl:when>
-                    <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
-                      <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
-                    </xsl:when>
-                  </xsl:choose>
                   <input name="condQuery" placeholder="{i18n:translate('mir.navsearch.placeholder')}" class="form-control search-query" id="searchInput" type="text" />
                   <div class="input-group-append">
                     <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
