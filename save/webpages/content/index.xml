@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
 
-  <section xml:lang="de" title="Willkommen auf den Seiten der FH Südwestfalen">
+  <section xml:lang="de" title="Willkommen bei PIA">
     <div class="jumbotwo">
       <div class="row">
         <div class="col" lang="de">
@@ -46,6 +46,54 @@
         </div>
       </div>
     </div>
+  </section>
+  <section xml:lang="en" title="Welcome to PIA">
+    <div class="jumbotwo">
+      <div class="row">
+        <div class="col" lang="de">
+
+          <h2 class="home-headline">
+            PIA – The repository of the South Westphalia University of Applied Sciences
+          </h2>
+
+          <div class="home-intro">
+            <div class="home-intro__image">
+              <img src="../images/backgrounds/content.jpg" />
+            </div>
+            <div class="home-intro__search">
+              <form action="../servlets/solr/find" id="project-searchMainPage" class="form-inline" role="search">
+                <div class="input-group input-group-lg w-100">
+                  <input name="condQuery" placeholder="Suche" class="form-control search-query" id="project-searchInput" type="text" />
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="home-intro__text">
+              <p>
+                Welcome to PIA, the repository of the South Westphalia University of
+                Applied Sciences. Here you will find both publications and other documents 
+                of the South Westphalia University of Applied Sciences that are also 
+                listed in the online catalogue KAI. All publications by university members
+                benefit from the following advantages of the publication server:
+              </p>
+              <ul>
+                <li>Free publication as open access</li>
+                <li>Worldwide visibility</li>
+                <li>Permanent availability as well as long-term archiving</li>
+                <li>Citability by assignment of a Digital Object Identifier (DOI)</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="all">
     <script src="../js/jquery.number.js"></script>
     <script>
       $( document ).ready(function() {
