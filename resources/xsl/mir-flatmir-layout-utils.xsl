@@ -44,7 +44,7 @@
               <div id="project_logo_box">
                 <a href="{concat($WebApplicationBaseURL,substring($loaded_navigation_xml/@hrefStartingPage,2),$HttpSession)}"
                   class="">
-                  <xsl:choose>$DefaultLang
+                  <xsl:choose>
                     <xsl:when test="$CurrentLang='en'">
                       <span id="logo_mir"><strong>PIA</strong> - <strong>P</strong>ublication, <strong>I</strong>nformation und <strong>A</strong>rchive</span>
                     </xsl:when>
