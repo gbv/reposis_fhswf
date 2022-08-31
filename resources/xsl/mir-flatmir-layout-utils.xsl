@@ -46,10 +46,10 @@
                   class="">
                   <xsl:choose>
                     <xsl:when test="$CurrentLang='en'">
-                      <span id="logo_mir"><strong>PIA</strong> - <strong>P</strong>ublication, <strong>I</strong>nformation und <strong>A</strong>rchive</span>
+                      <span id="logo_mir"><strong>PIA</strong> - <strong>P</strong>ublication, <strong>I</strong>nformation and <strong>A</strong>rchive</span>
                     </xsl:when>
                     <xsl:otherwise>
-                      <span id="logo_mir"><strong>PIA</strong> - <strong>P</strong>ublikation, <strong>I</strong>nformation and <strong>A</strong>rchiv</span>
+                      <span id="logo_mir"><strong>PIA</strong> - <strong>P</strong>ublikation, <strong>I</strong>nformation und <strong>A</strong>rchiv</span>
                     </xsl:otherwise>
                   </xsl:choose>
                 </a>
