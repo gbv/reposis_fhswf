@@ -118,4 +118,4 @@ MIR.OAS.Prefix=
 # Editor                                                                     #
 ##############################################################################
 # Customization of XEditor forms
-MIR.EditorForms.CustomIncludes=%MIR.EditorForms.CustomIncludes%,xslStyle:editor/mir2xeditor:webapp:editor/editor-customization.xed
+MIR.EditorForms.CustomIncludes=%MIR.EditorForms.CustomIncludes%,xslStyle:editor/mir2xeditor:webapp:content/editor/editor-customization.xed
