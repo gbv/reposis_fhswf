@@ -6,19 +6,19 @@
   <categories>
     <category ID="first_publication">
       <label xml:lang="de" text="Erstpublikation" />
-      <label xml:lang="de" text="first publication" />
+      <label xml:lang="en" text="first publication" />
     </category>
     <category ID="secound_publication">
       <label xml:lang="de" text="Zweitpublikation" />
-      <label xml:lang="de" text="secound publication" />
+      <label xml:lang="en" text="secound publication" />
     </category>
     <category ID="extern_publication">
       <label xml:lang="de" text="externe Veröffentlichung" />
-      <label xml:lang="de" text="extern publication" />
+      <label xml:lang="en" text="extern publication" />
     </category>
     <category ID="biblio_record">
       <label xml:lang="de" text="bibliografischer Datensatz" />
-      <label xml:lang="de" text="bibliografic entry" />
+      <label xml:lang="en" text="bibliografic entry" />
     </category>
   </categories>
 </mycoreclass>
