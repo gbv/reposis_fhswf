@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_hostingType">
   <label xml:lang="x-uri" text="https://publikationen.fhb.fh-swf.de/api/v2/classifications/mir_hostingType" />
   <label xml:lang="de" text="Art des Datensatzes" description="" />
   <label xml:lang="en" text="Kind of record" description="" />
