@@ -4,7 +4,7 @@
 
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
-    <xed:add ref="hostingType" after="genre" />
+    <xed:include ref="hostingType" after="genre" />
   </xed:modify>
 
   <xed:template id="hostingType">
