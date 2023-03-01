@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_hostingType">
+  <label xml:lang="x-uri" text="https://publikationen.fhb.fh-swf.de/api/v2/classifications/mir_hostingType" />
+  <label xml:lang="de" text="Art des Datensatzes" description="" />
+  <label xml:lang="en" text="Kind of record" description="" />
+  <categories>
+    <category ID="first_publication">
+      <label xml:lang="de" text="Erstpublikation" />
+      <label xml:lang="en" text="first publication" />
+    </category>
+    <category ID="secound_publication">
+      <label xml:lang="de" text="Zweitpublikation" />
+      <label xml:lang="en" text="secound publication" />
+    </category>
+    <category ID="extern_publication">
+      <label xml:lang="de" text="externe Veröffentlichung" />
+      <label xml:lang="en" text="extern publication" />
+    </category>
+    <category ID="biblio_record">
+      <label xml:lang="de" text="bibliografischer Datensatz" />
+      <label xml:lang="en" text="bibliografic entry" />
+    </category>
+  </categories>
+</mycoreclass>

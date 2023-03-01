@@ -2,6 +2,30 @@
 
 <xed:template xmlns:xed="http://www.mycore.de/xeditor" xmlns:mir="http://www.mycore.de/mir">
 
+  <!-- ========== extend editor-genres.xed ========== -->
+  <xed:modify ref="admin.fields">
+    <xed:include ref="hostingType" after="genre" />
+  </xed:modify>
+
+  <xed:template id="hostingType">
+     <xed:bind xpath="mods:classification[@authorityURI='https://publikationen.fhb.fh-swf.de/api/v2/classifications/mir_hostingType'][@displayLabel='hostingType']/@valueURIxEditor">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="mir.form.label.mir_hostingType" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:mir_hostingType" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:mir.help.mir_hostingType}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
   <xed:template id="genres.government_publication">
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="title.original" />
     <xed:include uri="xslStyle:editor/mir2xeditor:webapp:editor/editor-includes.xed" ref="editor.repeated" />
