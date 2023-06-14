@@ -78,6 +78,46 @@
 #  MCR.mir-module.MailSender=xxx
 
 ##############################################################################
+#                                                                            #
+# OAI Data Provider                                                          #
+#                                                                            #
+##############################################################################
+
+  MCR.OAIDataProvider.OAI2.RepositoryName=Publikationsserver der FH S\u00FCdwestfahlen
+  MCR.OAIDataProvider.OAI2.RepositoryIdentifier=publikationen.fhb.fh-swf.de/
+  MCR.OAIDataProvider.OAI2.AdminEmail=dabrowski.christian@fh-swf.de
+  MCR.OAIDataProvider.OAI2.DescriptionURI.EPrints=webapp:oai/oai-eprints.xml
+  MCR.OAIDataProvider.OAI2.DescriptionURI.Rights=webapp:oai/oai-rights.xml
+  MCR.OAIDataProvider.OAI2.RecordSampleID=fhswf_mods_00000017
+
+  # Metadata formats
+  MCR.OAIDataProvider.OAI2.MetadataFormats=oai_dc,marc21,mods,epicur,xMetaDissPlus
+ # MCR.OAIDataProvider.MetadataFormat.oai_datacite.Namespace=http://schema.datacite.org/oai/oai-1.0/
+ # MCR.OAIDataProvider.MetadataFormat.oai_datacite.Schema=http://schema.datacite.org/oai/oai-1.0/oai_datacite.xsd
+  MCR.OAIDataProvider.OAI2.MoveNamespaceDeclarationsToRoot=false
+
+  MCR.ContentTransformer.oai-marc21.Class=org.mycore.common.content.transformer.MCRTransformerPipe
+  MCR.ContentTransformer.oai-marc21.Steps=mods,mods2marcxml
+
+  # xMetaDissPlus
+  MCR.OAIDataProvider.MetadataFormat.xMetaDissPlus.Schema=http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd
+  MCR.OAIDataProvider.MetadataFormat.xMetaDissPlus.Namespace=http://www.d-nb.de/standards/xmetadissplus/
+  # MCR.OAIDataProvider.OAI2.MapSetToQuery.xmetadissplus=mods.genre:dissertation AND derCount:[1 TO *] AND NOT(mods.type:video OR mods.type:research_data)
+  MCR.OAIDataProvider.OAI2.Sets.xmetadissplus.URI=webapp:oai/set_xmetadissplus.xml
+  MCR.OAIDataProvider.OAI2.Sets.xmetadissplus.Query=mods.genre:dissertation AND derCount:[1 TO *] AND NOT(mods.type:video OR mods.type:research_data)
+  # If name, place and the address of the repository owner.
+  MCR.OAIDataProvider.RepositoryPublisherName=Publikationsserver der FH Suedwestfahlen
+  MCR.OAIDataProvider.RepositoryPublisherPlace=Iserlohn
+  MCR.OAIDataProvider.RepositoryPublisherAddress=Fachhochschule Suedwestfalen, Baarstraße 6, 58636 Iserlohn
+
+  # friendly OAI interfaces
+  MCR.OAIDataProvider.OAI2.Friends.OpenAgrar=https://www.openagrar.de/servlets/OAIDataProvider
+  MCR.OAIDataProvider.OAI2.Friends.DuEPublico=http://duepublico.uni-duisburg-essen.de/servlets/OAIDataProvider
+  MCR.OAIDataProvider.OAI2.Friends.DBThueringen=http://www.db-thueringen.de/servlets/OAIDataProvider
+  MCR.OAIDataProvider.OAI2.Friends.RosDok=http://rosdok.uni-rostock.de/oai
+
+
+##############################################################################
 # DOI                                                                        #
 ##############################################################################
   
