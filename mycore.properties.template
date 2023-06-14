@@ -116,6 +116,13 @@
   MCR.OAIDataProvider.OAI2.Friends.DBThueringen=http://www.db-thueringen.de/servlets/OAIDataProvider
   MCR.OAIDataProvider.OAI2.Friends.RosDok=http://rosdok.uni-rostock.de/oai
 
+  # additional OAI Sets                                                        #
+  MCR.OAIDataProvider.OAI2.Sets.hostingType.URI=xslStyle:classification2sets:classification:metadata:10:children:mir_hostingType
+  MCR.OAIDataProvider.OAI2.Sets.hostingType.Classification=mir_hostingType
+  MCR.OAIDataProvider.OAI2.Sets=%MCR.OAIDataProvider.OAI2.Sets%,hostingType
+
+  # overwrite OAI set - add childre of the institutes                          #
+  MCR.OAIDataProvider.OAI2.Sets.institute.URI=xslStyle:classification2sets:classification:metadata:10:children:mir_institutes
 
 ##############################################################################
 # DOI                                                                        #
