@@ -5,6 +5,7 @@
   <!-- ========== extend editor-genres.xed ========== -->
   <xed:modify ref="admin.fields">
     <xed:include ref="hostingType" after="genre" />
+    <xed:include ref="fisStatus" after="hostingType" />
   </xed:modify>
 
   <xed:template id="hostingType">
@@ -22,6 +23,25 @@
           </select>
         </div>
         <mir:help-pmud help-text="{i18n:mir.help.mir_hostingType}" pmud="false" />
+      </div>
+    </xed:bind>
+  </xed:template>
+
+  <xed:template id="fisStatus">
+    <xed:bind xpath="mods:classification[@authorityURI='https://publikationen.fhb.fh-swf.de/api/v2/classifications/fis_status'][@displayLabel='fisStatus']/@valueURIxEditor">
+      <div class="form-group row {$xed-validation-marker}">
+        <label class="col-md-3 col-form-label text-right">
+          <xed:output i18n="mir.form.label.fis_status" />
+        </label>
+        <div class="col-md-6">
+          <select class="form-control form-control-inline">
+            <option value="">
+              <xed:output i18n="mir.select.optional" />
+            </option>
+            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:fis_status" />
+          </select>
+        </div>
+        <mir:help-pmud help-text="{i18n:mir.help.fis_status}" pmud="false" />
       </div>
     </xed:bind>
   </xed:template>
