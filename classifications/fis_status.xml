@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ This file is part of ***  M y C o R e  ***
+  ~ See http://www.mycore.de/ for details.
+  ~
+  ~ MyCoRe is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ MyCoRe is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with MyCoRe.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="fis_status">
+    <label xml:lang="x-uri" text="https://publikationen.fhb.fh-swf.de/api/v2/classifications/fis_status" />
+    <label xml:lang="en" text="transfer document to FIS" />
+    <label xml:lang="de" text="Datensatz in FIS veröffentlichen" />
+    <categories>
+        <category ID="no">
+            <label xml:lang="en" text="Nein" />
+            <label xml:lang="de" text="no" />
+        </category>
+        <category ID="yes">
+            <label xml:lang="de" text="Ja" />
+            <label xml:lang="en" text="yes" />
+        </category>
+    </categories>
+</mycoreclass>
