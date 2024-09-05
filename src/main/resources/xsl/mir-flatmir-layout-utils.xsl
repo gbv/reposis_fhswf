@@ -6,7 +6,7 @@
     xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
     exclude-result-prefixes="i18n mcrver mcrxsl">
 
-  <xsl:import href="resource:xsl/mir-common-layout.xsl" />
+  <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
   <xsl:param name="piwikID" select="'0'" />
 
   <xsl:template name="mir.navigation">
