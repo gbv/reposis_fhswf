@@ -195,7 +195,7 @@
       </category>
       <category ID="study_book">
         <label xml:lang="x-hosts" text="standalone lecture" />
-        <label xml:lang="x-mapping" text="marcgt:instruction diniPublType:CourseMaterial" diniPublType2022:CourseMaterial schemaOrg:LearningResource"/>
+        <label xml:lang="x-mapping" text="marcgt:instruction diniPublType:CourseMaterial diniPublType2022:CourseMaterial schemaOrg:LearningResource"/>
         <label xml:lang="de" text="Studienbuch" />
         <label xml:lang="en" text="Study Book" />
       </category>
