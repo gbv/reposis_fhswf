@@ -23,10 +23,10 @@
   <parent>
     <groupId>de.gbv.reposis</groupId>
     <artifactId>reposis_mir_parent</artifactId>
-    <version>2021.06-SNAPSHOT</version>
+    <version>2023.06-SNAPSHOT</version>
   </parent>
   <artifactId>reposis_fhswf</artifactId>
-  <version>2021.06-SNAPSHOT</version>
+  <version>2023.06-SNAPSHOT</version>
   <name>PIA Publikation Information Archiv</name>
   <properties>
     <MCR.AppName>fhswf</MCR.AppName>
