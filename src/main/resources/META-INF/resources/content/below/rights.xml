@@ -24,14 +24,17 @@
 
   <h2>III. Name und Anschrift des Datenschutzbeauftragten</h2>
     
-    <p>Die Datenschutzbeauftragte der Verantwortlichen ist:</p>
+    <p>Den verantwortlichen Datenschutzbeauftragten können Sie wie folgt kontaktieren::</p>
     
-    <blockquote>Britta Ebenfeld<br />
+    <blockquote>
+        <a href="https://www.fh-swf.de/de/ueber_uns/beschaeftigte_1/organisation_1/beauftragteundvertretung/datenschutzbeauftragte/index.php">
+          Datenschutzbeauftragter 
+        </a><br />
         Baarstraße 6<br />
         58636 Iserlohn<br />
         Deutschland<br />
-        Tel.: 02371-566-133<br />
-        E-Mail: <span class="madress">ebenfeld.britta [at] fh-swf.de</span>
+        Tel.: 02371/566-17033<br />
+        E-Mail: <span class="madress">datenschutzbeauftragter [at] fh-swf.de</span>
     </blockquote>
 
     
@@ -265,11 +268,12 @@
         In diesem Falle unterrichtet Sie diese über den Stand und die Ergebnisse der Beschwerde einschließlich der Möglichkeit eines gerichtlichen Rechtsbehelfs nach Art. 78 DSGVO.
     </p>
     <p>Für die Wahrnehmung Ihrer in den Ziffern 1 bis 8 beschriebenen Rechte nach der DSGVO wenden Sie sich bitte an die folgende Stelle:</p>
-    <p>Bibliothek der Fachhochschule Südwestfalen<br />
+    <address>Fachhochschule Südwestfalen
+        Bibliothek<br />
         Haldener Straße 182<br />
         58095 Hagen
-    </p>
-    <p><span class="madress">e-Auskunft [at] fh-swf.de</span></p>
+    </address>
+    <p><span class="madress">bibliotheksdirektion [at] listen.fh-swf.de</span></p>
     
   </div>
 </section><meta><log lastEditor="administrator" date="2020-03-24" time="15:34" /></meta></MyCoReWebPage>
