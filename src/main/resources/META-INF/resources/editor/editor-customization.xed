@@ -107,4 +107,8 @@
       help-text="{i18n:mir.help.identifier.issn}" />
   </xed:template>
   
+  <xed:modify ref="admin.fields">
+    <xed:remove  ref="related.item.other.search.of.all.items" />
+  </xed:modify>
+  
 </xed:template>
