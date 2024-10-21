@@ -23,8 +23,8 @@
     <label xml:lang="de" text="Datensatz in FIS veröffentlichen" />
     <categories>
         <category ID="no">
-            <label xml:lang="en" text="Nein" />
-            <label xml:lang="de" text="no" />
+            <label xml:lang="en" text="no" />
+            <label xml:lang="de" text="Nein" />
         </category>
         <category ID="yes">
             <label xml:lang="de" text="Ja" />
