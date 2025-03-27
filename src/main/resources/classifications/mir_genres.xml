@@ -210,7 +210,7 @@
     <category ID="government_publication">
       <label xml:lang="de" text="Amtsschrift" description="Schrift, die hergestellt wurde von oder für ein internationale, nationale, regionale oder kommunale Regierungsorganisation oder einer ihrer Untereinheiten. " />
       <label xml:lang="en" text="Government Publication" description="Resource published or produced by or for an international, national, state, provincial, or local government agency, or by any subdivision of such a body." />
-      <label xml:lang="x-mapping" text="marcgt:government_publication diniPublType:text diniPublType2022:Report schemaOrg:Report" />
+      <label xml:lang="x-mapping" text="marcgt:government_publication diniPublType:Text diniPublType2022:Report schemaOrg:Report" />
       <label xml:lang="x-hosts" text="series standalone" />
     </category>
     <category ID="journal">
