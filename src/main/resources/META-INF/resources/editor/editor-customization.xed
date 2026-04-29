@@ -10,7 +10,10 @@
   </xed:modify>
 
   <xed:template id="hostingType">
-     <xed:bind xpath="mods:classification[@authorityURI='https://publikationen.fhb.fh-swf.de/api/v2/classifications/mir_hostingType'][@displayLabel='hostingType']/@valueURIxEditor">
+    <xed:bind
+      xpath="mods:classification[@authorityURI='https://publikationen.fhb.fh-swf.de/api/v2/classifications/mir_hostingType']/@displayLabel"
+      set="mir_hostingType"/>
+     <xed:bind xpath="mods:classification[@authorityURI='https://publikationen.fhb.fh-swf.de/api/v2/classifications/mir_hostingType']/@valueURIxEditor">
       <div class="form-group row {$xed-validation-marker}">
         <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="mir.form.label.mir_hostingType" />
@@ -29,7 +32,10 @@
   </xed:template>
 
   <xed:template id="fisStatus">
-    <xed:bind xpath="mods:classification[@authorityURI='https://publikationen.fhb.fh-swf.de/api/v2/classifications/fis_status'][@displayLabel='fisStatus']/@valueURIxEditor">
+    <xed:bind
+      xpath="mods:classification[@authorityURI='https://publikationen.fhb.fh-swf.de/api/v2/classifications/fis_status']/@displayLabel"
+      set="fis_status"/>
+    <xed:bind xpath="mods:classification[@authorityURI='https://publikationen.fhb.fh-swf.de/api/v2/classifications/fis_status']/@valueURIxEditor">
       <div class="form-group row {$xed-validation-marker}">
         <label class="col-md-3 col-form-label text-right">
           <xed:output i18n="mir.form.label.fis_status" />
