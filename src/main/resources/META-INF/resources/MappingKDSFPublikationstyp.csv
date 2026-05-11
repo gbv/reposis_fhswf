@@ -1,0 +1,14 @@
+﻿Quelle;Priorität;Enthält Publikationstyp aus Quelle;Enthält Dokumenttyp aus Quelle;Ziel-Publikationstyp;Ziel-Dokumenttyp;Peer reviewed
+default;1;article;*;Journalartikel;Wissenschaftlicher Artikel;aus Quelle
+default;2;book;*;Monographie;Sonstiger Dokumenttyp;aus Quelle
+default;3;chapter;*;Sammelbandbeitrag;Wissenschaftlicher Artikel;aus Quelle
+default;4;collection;*;Sammelband;Sonstiger Dokumenttyp;aus Quelle
+default;5;dissertation;*;Monographie;Sonstiger Dokumenttyp;aus Quelle
+default;6;journal;*;nicht importieren;Sonstiger Dokumenttyp;aus Quelle
+default;7;teaching_material;*;Sonstiger Publikationstyp;Sonstiger Dokumenttyp;aus Quelle
+default;8;proceedings;*;Konferenzband;Sonstiger Dokumenttyp;aus Quelle
+default;9;research_results;*;Arbeitspapier/Forschungsbericht;Sonstiger Dokumenttyp;aus Quelle
+default;10;report;*;Arbeitspapier/Forschungsbericht;Sonstiger Dokumenttyp;aus Quelle
+default;11;study_book;*;Sonstiger Publikationstyp;Sonstiger Dokumenttyp;aus Quelle
+default;12;issue;*;Sonderheft einer Zeitschrift;Sonstiger Dokumenttyp;aus Quelle
+default;13;in_house;*;Sonstiger Publikationstyp;Sonstiger Dokumenttyp;aus Quelle
