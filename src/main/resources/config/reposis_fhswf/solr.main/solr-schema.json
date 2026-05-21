@@ -1,0 +1,14 @@
+[
+  {
+    "add-field-type": {
+      "name": "mods.date_range",
+      "class": "solr.DateRangeField"
+    }
+  },
+  {
+    "add-field": {
+      "name": "mods.dateIssued_range",
+      "type": "mods.date_range"
+    }
+  }
+]
