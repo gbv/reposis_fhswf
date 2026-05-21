@@ -468,7 +468,26 @@
 
 
 
-
+        <xsl:variable name="timebarField" select="'mods.dateIssued_range'"/>
+        <div class="card">
+          <div class="card-header" data-toggle="collapse-next">
+            <h3 class="card-title">
+              <xsl:value-of select="i18n:translate('mir.search_facet.date.dateIssued')"/>
+            </h3>
+          </div>
+          <div class="card-body collapse show">
+            <script src="{$WebApplicationBaseURL}js/timebar.js" type="text/javascript"></script>
+            <div data-timebar="true"
+                 data-timebar-height="100"
+                 data-search-field="{$timebarField}"
+                 data-timebar-start="0001-01-01T00:00:00Z"
+                 data-timebar-end="NOW"
+                 data-timebar-gap="+1YEAR"
+                 data-timebar-mincount="1"
+            >
+            </div>
+          </div>
+        </div>
 
 
         <!-- Dynamic facets -->
