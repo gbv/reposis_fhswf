@@ -14,11 +14,7 @@
   <xsl:variable name="facetProperties" select="document(concat('property:','MIR.Response.Facet.*'))"/>
 
   <xsl:template name="facets">
-
-    <!-- ========================= -->
-    <!-- TIMEBAR FACET (FIRST)     -->
-    <!-- ========================= -->
-
+    <!-- START fhswf adaptions: FHSWF-71 -->
     <xsl:variable name="timebarField" select="'mods.dateIssued_range'"/>
 
     <div class="card timebar-facet">
@@ -41,11 +37,7 @@
         </div>
       </div>
     </div>
-
-    <!-- ========================= -->
-    <!-- NORMAL FACETS             -->
-    <!-- ========================= -->
-
+    <!-- END fhswf adaptions -->
     <xsl:for-each select="/response/lst[@name='facet_counts']/lst[@name='facet_fields']/*">
       <xsl:variable name="facet_name" select="self::node()/@name"/>
 
