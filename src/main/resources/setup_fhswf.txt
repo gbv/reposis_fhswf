@@ -1,0 +1,5 @@
+reload solr configuration main in core main
+update classification from uri resource:classifications/fis_status.xml
+update classification from uri resource:classifications/mir_genres.xml
+update classification from uri resource:classifications/mir_hostingType.xml
+update classification from uri resource:classifications/mir_institutes.xml
