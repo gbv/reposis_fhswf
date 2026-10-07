@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
-  <label xml:lang="x-uri" text="https://publikationen.fhb.fh-swf.de/api/v2/classifications/mir_institutes" />
+<mycoreclass ID="mir_institutes"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
   <label xml:lang="de" text="Fachbereiche der FH SWF" description="Liste aller Fachbereiche nach Standorten sortiert" />
   <label xml:lang="en" text="Institutions of FH SWF" description="A list of institutions" />
+  <label xml:lang="x-uri" text="https://publikationen.fhb.fh-swf.de/api/v2/classifications/mir_institutes" />
   <categories>
     <category ID="HA">
       <label xml:lang="de" text="Standort Hagen" />
@@ -51,9 +53,6 @@
       </category>
       <category ID="SO.MA">
         <label xml:lang="de" text="Fachbereich Maschinenbau-Automatisierungstechnik" />
-      </category>
-      <category ID="SO.WZF">
-        <label xml:lang="de" text="Wissenschaftliches Zentrum Frühpädagogik" />
       </category>
       <category ID="SO.BG">
         <label xml:lang="de" text="Fachbereich Bildungs- und Gesellschaftswissenschaften" />
